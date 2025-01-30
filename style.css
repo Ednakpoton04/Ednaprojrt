@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+}
+body {
+ font-family: 'Inter', sans-serif;
+ background-color: rgb(24, 20, 20);
+ color: rgb(243, 232, 232);
+ min-height: 100vh;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;  /*pour aligner horizontalement les elements */
+padding: 10px;
+}
+ul {
+     display: flex; /*pour alligner les element verticalement */
+    list-style: none; /* pour suprimer les styles */
+
+}
+li {
+    
+    padding-right: 170px; 
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    /* padding: 5px; */
+
+}
+.droite {
+    width: 50%;
+}
+#router {
+    width: 100%;
+}
+.gauche {
+    display: flex;
+    align-items: center;
+}
+.egauche {
+    
+    
+}
+.title {
+    font-size: 5rem;
+    /* height: 150px;      hauteur des title */
+}
+.stitle {
+    font-size: 1,5rem;
+    color: blue;
+}
+
+/* footer */
+
+.foot {
+    background-color: rgb(3, 3, 3);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.in button{
+    background-color: #474dff;
+    color: aliceblue;
+    border-radius: 9px;
+    height: 40px;
+    width: 140px;
+}
+/* boutton */
+.left {
+    text-align: center;
+
+}
+.right{
+    width: 67%;
+}
+.part img{
+    width: 90px;
+}
+.part {
+    display: flex;
+    justify-content: space-around;
+    width: 67%;
+    padding-top: 50px;
+}
